@@ -1,3 +1,4 @@
+
 def groupAnagramsSort(strs):
     map1 = {}
     for s in strs:
@@ -26,7 +27,6 @@ def groupAnagramsSort(strs):
 
     #time complexity:  O(n*mlogm+m) == O(n*mlogm)
     #space complexity: O(n+m)
-
 
 def groupAnagramTupleDict(strs):
     map1 = {}
